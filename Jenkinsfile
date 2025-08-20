@@ -1,9 +1,9 @@
 pipeline {
-    agent {label 'slave-1'}
+      agent {label 'agent-1'}
     
     tools {
-        maven 'maven3'
-        jdk 'jdk17'
+        maven 'maven'
+        jdk 'jdk'
     }
 
     stages {     
